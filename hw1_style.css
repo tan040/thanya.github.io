@@ -1,0 +1,55 @@
+.myHeader{
+    color: pink;
+    text-align:center;
+}
+#propic{
+    position: absolute;
+    top: 10px;
+    right:10px;
+    height:300px;
+    width:250px;
+    text-align:center;
+}
+.info{
+    color:rgb(134, 134, 243);  
+    font-size:large; 
+}
+body{
+    background-image: url(hw1bg.jpeg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.proinfo{
+    border: 1px;
+    border-color: black;
+    border-width: 5px;
+    border-style: dotted;
+
+}
+#ul{
+    position:absolute;
+    left:auto;
+}
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 300px;
+    border: 3px solid black;
+}
+  
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+a:hover{
+    background-color: lightpink;
+}
+a:link{
+    color:rgb(122, 171, 155);
+}
+a:visited{
+    color:rgb(217, 182, 255);
+}
